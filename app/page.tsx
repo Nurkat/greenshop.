@@ -138,7 +138,6 @@ function Home() {
       })
       .then((res) => {
         setIsLoading(false);
-        // console.log(res.data.products);
         setPlantProduct(res.data.products);
         setLimited(res.data.total_count);
       })

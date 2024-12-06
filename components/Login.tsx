@@ -84,8 +84,6 @@ const LoginModal: FC<LoginModalProps> = ({ isOpen, onClose }) => {
       });
     } catch (error) {
       toast.error("Registration failed. Please try again.");
-
-      // console.log(error);
     }
   };
 

@@ -22,7 +22,7 @@ export const RangeSlider = ({ setRangeValue }: RangeType) => {
         step={1}
         value={values}
         min={39}
-        max={1500}
+        max={1230}
         onAfterChange={onAfterChange}
         onChange={setValues}
       />
